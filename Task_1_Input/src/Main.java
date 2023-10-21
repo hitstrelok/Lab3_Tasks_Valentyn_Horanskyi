@@ -10,7 +10,6 @@ public class Main
         float firstNumber = scanner.nextInt();
         System.out.println("Please enter second number: ");
         float secondNumber = scanner.nextInt();
-            //Git Test
 
         System.out.println("Sum(+): " + (firstNumber + secondNumber));
 
