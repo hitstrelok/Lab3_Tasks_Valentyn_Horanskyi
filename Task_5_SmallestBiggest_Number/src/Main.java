@@ -8,15 +8,15 @@ public class Main {
         for(int i=1; i<=10; i++) {
             numberRandom =(int) (Math.random()*(100-1));
 
-            if(numberRandom>numberMax){//MAX
+            if(numberRandom>numberMax){
                 numberMax=numberRandom;
             }
-            if(numberRandom<numberMin){//MIN
+            if(numberRandom<numberMin){
                 numberMin=numberRandom;
             }
-            System.out.println("Random "+numberRandom);
+            System.out.println("Random: " + numberRandom);
         }
-        System.out.println("Max "+numberMax);
-        System.out.println("Min "+numberMin+"\n");
+        System.out.println("Max number: " + numberMax);
+        System.out.println("Min number: " + numberMin);
     }
 }
