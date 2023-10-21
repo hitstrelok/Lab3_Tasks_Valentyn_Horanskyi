@@ -7,9 +7,9 @@ public class Main
 
         System.out.println("Valentyn Horanskyi (ID:63500, group 1)");
         System.out.println("Please enter first number: ");
-        float firstNumber = scanner.nextInt();
+        float firstNumber = scanner.nextFloat();
         System.out.println("Please enter second number: ");
-        float secondNumber = scanner.nextInt();
+        float secondNumber = scanner.nextFloat();
 
         System.out.println("Sum(+): " + (firstNumber + secondNumber));
 
