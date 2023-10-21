@@ -4,13 +4,13 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter your weight:");//85
+        System.out.println("Enter your weight:");
         float weightUser = scanner.nextFloat();
 
-        System.out.println("Enter your height:");//177
+        System.out.println("Enter your height:");
         float heightUser = scanner.nextFloat();
 
-        double BMI = weightUser/(Math.pow((heightUser/100),2));//Result: 27.13
+        double BMI = weightUser/(Math.pow((heightUser/100),2));
 
         System.out.printf("BMI: %.2f%n",BMI);
         if(BMI == 16.00){
