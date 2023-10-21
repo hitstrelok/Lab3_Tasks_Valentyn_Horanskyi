@@ -14,7 +14,7 @@ public class Main {
             if(numberRandom<numberMin){
                 numberMin=numberRandom;
             }
-            System.out.println("Random: " + numberRandom);
+            System.out.println("Random " + i + ":" + numberRandom);
         }
         System.out.println("Max number: " + numberMax);
         System.out.println("Min number: " + numberMin);
